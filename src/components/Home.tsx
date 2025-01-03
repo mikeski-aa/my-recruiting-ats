@@ -1,7 +1,9 @@
 function Home() {
   return (
     <div className="homeContainer">
-      <h1>home</h1>
+      <div className="homeActive">
+        <h2>Active reqs</h2>
+      </div>
     </div>
   );
 }
