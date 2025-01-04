@@ -1,7 +1,24 @@
 function NewReq() {
   return (
     <div className="createNewReq">
-      <h3>new req creation</h3>
+      <div className="creationForm">
+        <div className="reqCreationHolder">
+          <label htmlFor="reqName">Requisition Name</label>
+          <input id="reqName" type="text"></input>
+        </div>
+        <div className="reqCreationHolder">
+          <label htmlFor="reqName">Requisition Name</label>
+          <input id="reqName" type="text"></input>
+        </div>
+        <div className="reqCreationHolder">
+          <label htmlFor="reqName">Requisition Name</label>
+          <input id="reqName" type="text"></input>
+        </div>
+        <div className="reqCreationHolder">
+          <label htmlFor="reqName">Requisition Name</label>
+          <input id="reqName" type="text"></input>
+        </div>
+      </div>
     </div>
   );
 }
