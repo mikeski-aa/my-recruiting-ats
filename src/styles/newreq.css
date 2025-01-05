@@ -1,0 +1,4 @@
+.reqCreationHolder {
+  display: flex;
+  flex-direction: column;
+}
