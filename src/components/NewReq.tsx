@@ -32,7 +32,9 @@ function NewReq() {
           <label htmlFor="taManager">Recruiter assigned</label>
           <input id="taManager" type="text"></input>
         </div>
+        <button className="submitReq">Next</button>
       </div>
+      <div className="stageCreation"></div>
     </div>
   );
 }
