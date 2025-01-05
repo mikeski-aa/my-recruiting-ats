@@ -34,7 +34,7 @@ function NewReq() {
         </div>
         <button className="submitReq">Next</button>
       </div>
-      <div className="stageCreation"></div>
+      <div className="stageCreation">x</div>
     </div>
   );
 }
