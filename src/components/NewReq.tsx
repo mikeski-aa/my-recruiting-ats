@@ -1,6 +1,7 @@
 import "../styles/newreq.css";
 
 function NewReq() {
+  const handleSubmitClick = () => {};
   return (
     <div className="createNewReq">
       <div className="creationForm">
@@ -32,7 +33,9 @@ function NewReq() {
           <label htmlFor="taManager">Recruiter assigned</label>
           <input id="taManager" type="text"></input>
         </div>
-        <button className="submitReq">Next</button>
+        <button className="submitReq" onClick={handleSubmitClick}>
+          Next
+        </button>
       </div>
       <div className="stageCreation">x</div>
     </div>
