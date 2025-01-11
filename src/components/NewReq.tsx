@@ -1,7 +1,12 @@
+import { useState } from "react";
 import "../styles/newreq.css";
 
 function NewReq() {
-  const handleSubmitClick = () => {};
+  const [reqState, setReqState] = useState<number>(0);
+
+  const handleSubmitClick = () => {
+    setReqState(1);
+  };
   return (
     <div className="createNewReq">
       <div className="creationForm">
