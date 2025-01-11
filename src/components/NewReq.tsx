@@ -9,7 +9,7 @@ function NewReq() {
   };
 
   const handleBackClick = () => {
-    setReqState(0);
+    setReqState(reqState - 1);
   };
   return (
     <div className="createNewReq">
