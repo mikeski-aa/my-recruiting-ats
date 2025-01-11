@@ -7,6 +7,10 @@ function NewReq() {
   const handleSubmitClick = () => {
     setReqState(1);
   };
+
+  const handleBackClick = () => {
+    setReqState(0);
+  };
   return (
     <div className="createNewReq">
       <div className="creationForm">
@@ -38,6 +42,9 @@ function NewReq() {
           <label htmlFor="taManager">Recruiter assigned</label>
           <input id="taManager" type="text"></input>
         </div>
+        <button className="submitReq" onClick={handleBackClick}>
+          Back
+        </button>
         <button className="submitReq" onClick={handleSubmitClick}>
           Next
         </button>
