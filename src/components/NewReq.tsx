@@ -28,6 +28,7 @@ function NewReq() {
             <option>Finance</option>
             <option>Legal</option>
             <option>Operations</option>
+            <option>Other</option>
           </select>
         </div>
         <div className="reqCreationHolder">
