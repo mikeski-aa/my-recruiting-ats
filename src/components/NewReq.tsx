@@ -45,7 +45,10 @@ function NewReq() {
             <input id="taManager" type="text"></input>
           </div>
           <div className="reqCreationTwo">
-            <div className="reqCreationHolder"></div>
+            <div className="reqCreationHolder">
+              <label htmlFor="taManager">Additional info</label>
+              <input id="taManager" type="text"></input>
+            </div>
           </div>
         </div>
 
